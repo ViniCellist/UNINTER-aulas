@@ -2,4 +2,13 @@ function plus1(x) {
     return x + 1;
 };
 
-console.log(plus1(2));
+/**/
+
+let square = function(x) {
+    return x*x;
+};
+
+
+// teste
+
+console.log(square(plus1(2)));
